@@ -2,6 +2,7 @@ function clickWin() {
     alert("The Windows Logo was clicked!");
 }
 
+
 function shStartmenu() {
     const tarDiv = document.getElementById("startmenu");
     const trigger = document.getElementById("winlogo");
@@ -17,3 +18,5 @@ function shStartmenu() {
 function ie() {
     alert("I'm sorry, but IE is dead.");
 }
+
+init();
